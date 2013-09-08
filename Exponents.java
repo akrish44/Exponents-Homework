@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exponents2  {
+public class Exponents  {
 
 public static void main(String[] args) {
 	
