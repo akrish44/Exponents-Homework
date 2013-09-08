@@ -7,9 +7,9 @@ public class Hailstone {
 		String str1 = "Enter a number: ";
 		System.out.println(str1);
 		int newNum = reader.nextInt();
-	
-	
-		while (newNum != 1 && newNum % 2 == 0) { {
+
+	while (newNum > 0 && newNum !=1) {
+		while (newNum % 2 == 0) {
 			newNum = newNum/2;
 			System.out.println(newNum);
 		}
@@ -20,7 +20,7 @@ public class Hailstone {
 		}	
 		if (newNum == 1) {
 			System.out.println("Calculation stopped.");
-		} }
-		
+		}
 	}
+}
 }
